@@ -1,0 +1,22 @@
+import React, {useState} from 'react';
+import './App.css';
+import Board from './components/Board';
+
+
+function App() {
+  const 
+
+
+
+
+  const board = ["X","X","X","X","X","X","X","X","X"]
+  return (
+    <div className="App">
+      <Board board={board} onClick={null}/>
+
+
+    </div>
+  );
+}
+
+export default App;
